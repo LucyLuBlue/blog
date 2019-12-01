@@ -1,30 +1,35 @@
 <?xml version = "1.0" encoding="UTF-8" standalone="no"?> 
 <?xml-stylesheet type = "text/xsl" href = "project.xsl"?> 
-<class> 
-   <student rollno = "393"> 
-          
-      <firstname>Dinkar</firstname> 
-      <lastname>Kad</lastname> 
-      <nickname>Dinkar</nickname> 
-      <marks>85</marks>
-     
-   </student> 
+<activities> 
+   <section name = "Work Expirience">   
+      <entree>
+          <title>Pointy</title> <subtitle> job1</subtitle> <description>blabla</description>
+    </entree>
+
+
+    <entree>
+          <title>Pointy</title> <subtitle> job1</subtitle> <description>blabla</description>
+    </entree>
+   </section> 
       
-   <student rollno = "493"> 
+  <section name = "Courses"> 
+     <entree>
+          <title>Pointy</title> <subtitle> job1</subtitle> <description>blabla</description>
+    </entree> 
+    <entree>
+          <title>Pointy</title> <subtitle> job1</subtitle> <description>blabla</description>
+    </entree>
+   
+
+ </section> 
       
-      <firstname>Vaneet</firstname> 
-      <lastname>Gupta</lastname> 
-      <nickname>Vinni</nickname> 
-      <marks>95</marks> 
-      
-   </student> 
-      
-   <student rollno = "593"> 
-       
-      <firstname>Jasvir</firstname> 
-      <lastname>Singh</lastname> 
-      <nickname>Jazz</nickname> 
-      <marks>90</marks> 
-      
-   </student> 
-</class>
+   <section name = "Hobbies"> 
+     <entree>
+          <title>Pointy</title> <subtitle> job1</subtitle> <description>blabla</description>
+    </entree> 
+    <entree>
+          <title>Pointy</title> <subtitle> job1</subtitle> <description>blabla</description>
+    </entree>
+    
+ </section> 
+</activities>

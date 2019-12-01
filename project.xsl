@@ -3,30 +3,47 @@
 	
    <xsl:template match = "/"> 
       <table1 id="results" class="indent">  
-        <html> 
-         <body> 
-            <h2>Students</h2> 
-            <table border = "1"> 
+        
+        
+            
+            <thead>
                <tr bgcolor = "#9acd32"> 
-                  <th>Roll No</th> 
-                  <th>First Name</th> 
-                  <th>Last Name</th> 
-                  <th>Nick Name</th> 
-                  <th>Marks</th> 
+                  <th colspan="3">Activities</th>  
                </tr>
-					
-               <xsl:for-each select = "class/student"> 
-                  <tr> 
-                     <td><xsl:value-of select = "@rollno"/></td> 
-                     <td><xsl:value-of select = "firstname"/></td> 
-                     <td><xsl:value-of select = "lastname"/></td> 
-                     <td><xsl:value-of select = "nickname"/></td> 
-                     <td><xsl:value-of select = "marks"/></td>
-                  </tr> 
-               </xsl:for-each> 
-            </table> 
-         </body> 
-      </html> 
-       </table1>
+               <tr>
+                   <th>title</th>
+                   <th>subtitle</th>
+                   <th>description</th>
+               </tr>
+            </thead>	
+        <tbody> 
+            <xsl:for-each select="/activities/section">
+                            <tr>
+                                <td colspan="3">
+                                    <xsl:value-of select="@name" />
+                                </td>
+                            </tr>
+                            <xsl:for-each select="entree">
+                            <tr>
+                                
+                                     <xsl:value-of />
+                               
+                                <td>
+                                    <xsl:value-of select="title" />
+                                </td>
+                                <td align="center">
+                                    <xsl:value-of select="subtitle" />
+                                </td>
+                                <td align="center">
+                                    <xsl:value-of select="description" />
+                                </td>
+                            </tr>
+                            </xsl:for-each>
+                        </xsl:for-each>
+              
+           
+         </tbody> 
+    
+       </table1><br/>
    </xsl:template>  
 </xsl:stylesheet>

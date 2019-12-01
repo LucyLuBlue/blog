@@ -19,14 +19,14 @@ function select_row()
 	{
 		$(".selected").removeClass("selected");
 		$(this).addClass("selected");
-		var student = $(this).prevAll("tr").children("td[colspan='3']").length - 1;
-		//var entree = $(this).attr("id") - 1;
+		var section = $(this).prevAll("tr").children("td[colspan='3']").length - 1;
+		var entree = $(this).attr("id") - 1;
 		delete_row(student);
 	})
 };
 // Eliminar fila 
 
-function delete_row(stu)
+function delete_row(sec, ent)
 {
 	$("#delete").click(function ()
 	{
@@ -36,7 +36,8 @@ function delete_row(stu)
 			type: "POST",
 			data:
 			{
-				student: stu
+				section: sec,
+				entree: ent
 				
 			},
 			cache: false,
