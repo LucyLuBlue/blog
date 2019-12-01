@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl = "http://www.w3.org/1999/XSL/Transform" version="1.0">  
 	
    <xsl:template match = "/"> 
-      <table1 id="results" class="indent">  
+      <table id="activityTable" class="indent">  
         
         
             
@@ -44,6 +44,6 @@
            
          </tbody> 
     
-       </table1><br/>
+       </table><br/>
    </xsl:template>  
 </xsl:stylesheet>
