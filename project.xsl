@@ -1,11 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8"?> 
 <xsl:stylesheet xmlns:xsl = "http://www.w3.org/1999/XSL/Transform" version="1.0">  
-	
    <xsl:template match = "/"> 
-      <table id="results" class="indent">  
-        
-        
-            
+      <table id="results" class="indent">              
             <thead>
                <tr bgcolor = "#9acd32"> 
                   <th colspan="3">Activities</th>  
@@ -24,9 +20,8 @@
                                 </td>
                             </tr>
                             <xsl:for-each select="entree">
-                            <tr>
                                 
-                                     <xsl:value-of />
+                            <tr id="{position()}"
                                
                                 <td>
                                     <xsl:value-of select="title" />
@@ -39,11 +34,8 @@
                                 </td>
                             </tr>
                             </xsl:for-each>
-                        </xsl:for-each>
-              
-           
-         </tbody> 
-    
+            </xsl:for-each>          
+         </tbody>     
        </table><br/>
    </xsl:template>  
 </xsl:stylesheet>
