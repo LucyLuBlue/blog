@@ -1,34 +1,44 @@
-<?xml version = "1.0" encoding="UTF-8" standalone="yes"?> 
-<activities> 
-   <section name = "Work Expirience">   
-      <entree>
-          <title>Pointy</title> <subtitle> job1</subtitle> <description>blabla</description>
-    </entree>
-
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activities>
+  <section name="Work Expirience">
     <entree>
-          <title>Pointy</title> <subtitle> job1</subtitle> <description>blabla</description>
+      <title>Pointy</title>
+      <subtitle> job1</subtitle>
+      <description>blabla</description>
     </entree>
-   </section> 
-      
-  <section name = "Courses"> 
-     <entree>
-          <title>Pointy</title> <subtitle> job1</subtitle> <description>blabla</description>
-    </entree> 
     <entree>
-          <title>Pointy</title> <subtitle> job1</subtitle> <description>blabla</description>
+      <title>Pointy</title>
+      <subtitle> job1</subtitle>
+      <description>blabla</description>
     </entree>
-   
-
- </section> 
-      
-   <section name = "Hobbies"> 
-     <entree>
-          <title>Pointy</title> <subtitle> job1</subtitle> <description>blabla</description>
-    </entree> 
     <entree>
-          <title>Pointy</title> <subtitle> job1</subtitle> <description>blabla</description>
+      <title>Pointy</title>
+      <subtitle>pointy</subtitle>
+      <description>pointy</description>
     </entree>
-    
- </section> 
+  </section>
+  <section name="Courses">
+    <entree>
+      <title>Pointy</title>
+      <subtitle> job1</subtitle>
+      <description>blabla</description>
+    </entree>
+    <entree>
+      <title>Pointy</title>
+      <subtitle> job1</subtitle>
+      <description>blabla</description>
+    </entree>
+  </section>
+  <section name="Hobbies">
+    <entree>
+      <title>Pointy</title>
+      <subtitle> job1</subtitle>
+      <description>blabla</description>
+    </entree>
+    <entree>
+      <title>Pointy</title>
+      <subtitle> job1</subtitle>
+      <description>blabla</description>
+    </entree>
+  </section>
 </activities>
