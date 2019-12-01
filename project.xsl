@@ -3,7 +3,7 @@
 	
    <xsl:template match = "/"> 
       <table1 id="results" class="indent">  
-      <html> 
+        <html> 
          <body> 
             <h2>Students</h2> 
             <table border = "1"> 
@@ -27,6 +27,6 @@
             </table> 
          </body> 
       </html> 
-      </table1> 
+       </table1>
    </xsl:template>  
 </xsl:stylesheet>
