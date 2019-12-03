@@ -28,6 +28,11 @@
       <subtitle> job1</subtitle>
       <description>blabla</description>
     </entree>
+    <entree>
+      <title>title 1</title>
+      <subtitle>subtitle 1</subtitle>
+      <description>description1</description>
+    </entree>
   </section>
   <section name="Hobbies">
     <entree>

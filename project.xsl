@@ -21,7 +21,7 @@
                             </tr>
                             <xsl:for-each select="entree">
                                 
-                            <tr id="{position()}"
+                            <tr id="{position()}">
                                
                                 <td>
                                     <xsl:value-of select="title" />
