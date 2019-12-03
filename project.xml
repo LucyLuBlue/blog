@@ -2,47 +2,52 @@
 <activities>
   <section name="Work Expirience">
     <entree>
-      <title>Pointy</title>
+      <title>Pointy1</title>
       <subtitle> job1</subtitle>
       <description>blabla</description>
     </entree>
     <entree>
-      <title>Pointy</title>
-      <subtitle> job1</subtitle>
+      <title>Pointy2</title>
+      <subtitle> job2</subtitle>
       <description>blabla</description>
     </entree>
     <entree>
-      <title>Pointy</title>
-      <subtitle>pointy</subtitle>
-      <description>pointy</description>
+      <title>Pointy3</title>
+      <subtitle>point3</subtitle>
+      <description>point3</description>
+    </entree>
+    <entree>
+      <title>workEx</title>
+      <subtitle>Workex Sutitle</subtitle>
+      <description>WorkExp Description </description>
     </entree>
   </section>
   <section name="Courses">
     <entree>
-      <title>Pointy</title>
-      <subtitle> job1</subtitle>
+      <title>Course1</title>
+      <subtitle> c1</subtitle>
       <description>blabla</description>
     </entree>
     <entree>
-      <title>Pointy</title>
-      <subtitle> job1</subtitle>
+      <title>Course2</title>
+      <subtitle>c2</subtitle>
       <description>blabla</description>
     </entree>
     <entree>
-      <title>title 1</title>
-      <subtitle>subtitle 1</subtitle>
-      <description>description1</description>
+      <title>title 3</title>
+      <subtitle>subtitle 3</subtitle>
+      <description>description3</description>
     </entree>
   </section>
   <section name="Hobbies">
     <entree>
-      <title>Pointy</title>
-      <subtitle> job1</subtitle>
+      <title>Hobbies1</title>
+      <subtitle>ho1</subtitle>
       <description>blabla</description>
     </entree>
     <entree>
-      <title>Pointy</title>
-      <subtitle> job1</subtitle>
+      <title>Hobbies2</title>
+      <subtitle>ho2</subtitle>
       <description>blabla</description>
     </entree>
   </section>

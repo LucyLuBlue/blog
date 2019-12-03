@@ -1,12 +1,17 @@
-function draw_table(){
+function draw_table()
+{
     $("#results").empty();
-    $.getJSONuncached = function(url) {
-        return $.ajax({
+    $.getJSONuncached = function(url) 
+    {
+        return $.ajax(
+            {
             url: url,
             type: 'GET',
             cache: false,
-            success: function(html) {
+            success: function(html) 
+            {
                 $("#results").append(html);
+                select_row();
             }
         });
     };
@@ -25,7 +30,6 @@ function select_row()
 	})
 };
 // Eliminar fila 
-
 function delete_row(sec, ent)
 {
 	$("#delete").click(function ()

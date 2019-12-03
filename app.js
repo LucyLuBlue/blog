@@ -28,8 +28,6 @@ function jsToXmlFile(filename, obj, cb) {
   var xml = builder.buildObject(obj);
   fs.writeFile(filepath, xml, cb);
 }
-
-
 //We define the root of our website and render index.html located inside the views folder
 router.get('/', function(req, res){
 
@@ -87,7 +85,7 @@ router.post('/post/delete', function(req, res) {
     xmlFileToJs('project.xml', function(err, result) {
       if (err) throw (err);
       //This is where we delete the object based on the position of the section and position of the entree, as being passed on from index.html
-      delete result.activities.section[obj.section].entree;
+      delete result.activities.section[obj.section].entree[obj.entree];
       //This is where we convert from JSON and write back our XML file
       jsToXmlFile('project.xml', result, function(err) {
         if (err) console.log(err);
