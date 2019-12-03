@@ -41,14 +41,14 @@
   </section>
   <section name="Hobbies">
     <entree>
-      <title>Hobbies1</title>
-      <subtitle>ho1</subtitle>
-      <description>blabla</description>
-    </entree>
-    <entree>
       <title>Hobbies2</title>
       <subtitle>ho2</subtitle>
       <description>blabla</description>
+    </entree>
+    <entree>
+      <title>Crossfit </title>
+      <subtitle>Navitas</subtitle>
+      <description>Training </description>
     </entree>
   </section>
 </activities>
