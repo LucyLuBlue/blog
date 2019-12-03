@@ -18,11 +18,11 @@
          </thead>
          <tbody>
             <xsl:for-each select="/activities/section">
-               <tr bgcolor = "#87CEEB" >
-                  <td colspan="3">
+               <tr bgcolor = "#87CEEB">
+                  <td colspan="4">
                      <xsl:value-of select="@name" />
                   </td>
-               </tr>
+                </tr>
                <xsl:for-each select="entree">
                   <tr id="{position()}">
                       <td align="center">
