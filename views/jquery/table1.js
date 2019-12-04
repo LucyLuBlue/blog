@@ -32,7 +32,7 @@ function select_row()
 // Eliminar fila 
 function delete_row(sec, ent)
 {
-	$("#delete").click(function ()
+	$("#delete").one("click", function ()
 	{
 		$.ajax(
 		{

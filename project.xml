@@ -7,48 +7,28 @@
       <description>blabla</description>
     </entree>
     <entree>
-      <title>Pointy2</title>
-      <subtitle> job2</subtitle>
-      <description>blabla</description>
-    </entree>
-    <entree>
-      <title>Pointy3</title>
-      <subtitle>point3</subtitle>
-      <description>point3</description>
-    </entree>
-    <entree>
-      <title>workEx</title>
-      <subtitle>Workex Sutitle</subtitle>
-      <description>WorkExp Description </description>
+      <title>python</title>
+      <subtitle>django </subtitle>
+      <description>description </description>
     </entree>
   </section>
   <section name="Courses">
     <entree>
-      <title>Course1</title>
-      <subtitle> c1</subtitle>
-      <description>blabla</description>
-    </entree>
-    <entree>
-      <title>Course2</title>
-      <subtitle>c2</subtitle>
-      <description>blabla</description>
-    </entree>
-    <entree>
-      <title>title 3</title>
-      <subtitle>subtitle 3</subtitle>
-      <description>description3</description>
+      <title>office manager </title>
+      <subtitle>django </subtitle>
+      <description>blog </description>
     </entree>
   </section>
   <section name="Hobbies">
     <entree>
-      <title>Hobbies2</title>
-      <subtitle>ho2</subtitle>
-      <description>blabla</description>
-    </entree>
-    <entree>
       <title>Crossfit </title>
       <subtitle>Navitas</subtitle>
       <description>Training </description>
+    </entree>
+    <entree>
+      <title>coding</title>
+      <subtitle>django </subtitle>
+      <description>blog </description>
     </entree>
   </section>
 </activities>
