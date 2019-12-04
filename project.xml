@@ -11,6 +11,11 @@
       <subtitle>django </subtitle>
       <description>description </description>
     </entree>
+    <entree>
+      <title>Student researcher</title>
+      <subtitle>CCA</subtitle>
+      <description>UNAM</description>
+    </entree>
   </section>
   <section name="Courses">
     <entree>
