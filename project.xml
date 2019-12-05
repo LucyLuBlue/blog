@@ -1,39 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <activities>
-  <section name="Work Expirience">
+  <section name="Work Experience ">
     <entree>
-      <title>Pointy1</title>
-      <subtitle> job1</subtitle>
-      <description>blabla</description>
+      <title>Hardware Operations Manager</title>
+      <subtitle>Pointy</subtitle>
+      <description>Stock Control Management</description>
     </entree>
     <entree>
-      <title>python</title>
-      <subtitle>django </subtitle>
-      <description>description </description>
+      <title>Facility Manager</title>
+      <subtitle>Navitas Crossfit</subtitle>
+      <description>Keep the place in order</description>
     </entree>
     <entree>
       <title>Student researcher</title>
-      <subtitle>CCA</subtitle>
-      <description>UNAM</description>
+      <subtitle>Atmospheric Science Center</subtitle>
+      <description>Built a numeril model to calculate chlorophyll concentration in the ocean </description>
     </entree>
   </section>
   <section name="Courses">
     <entree>
-      <title>office manager </title>
-      <subtitle>django </subtitle>
-      <description>blog </description>
+      <title>I.T.</title>
+      <subtitle>CCT Dublin</subtitle>
+      <description>Cumputing Science </description>
     </entree>
   </section>
   <section name="Hobbies">
     <entree>
       <title>Crossfit </title>
       <subtitle>Navitas</subtitle>
-      <description>Training </description>
+      <description>I like gymnastics and olympic lifting </description>
     </entree>
     <entree>
-      <title>coding</title>
-      <subtitle>django </subtitle>
-      <description>blog </description>
+      <title>Reading</title>
+      <subtitle>Learning books</subtitle>
+      <description>I prefer books that can teach me something useful for life</description>
+    </entree>
+    <entree>
+      <title>Podcasts</title>
+      <subtitle>Comedy</subtitle>
+      <description>I enjoy listening to Mexican Comedy to laugh and know what is happening in my country</description>
     </entree>
   </section>
 </activities>
