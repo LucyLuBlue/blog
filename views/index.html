@@ -9,12 +9,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>Lucy Lagunas - Blog</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-      <link href="css/project.css" rel="stylesheet">
-
+    <link href="css/project.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/freelancer.css" rel="stylesheet">
@@ -27,9 +26,9 @@
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
 
 </head>
 
@@ -46,7 +45,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="#page-top">Lucy's BLog</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -78,51 +77,60 @@
                 <div class="col-lg-12">
                     <img class="img-responsive" src="img/profile.png" alt="">
                     <div class="intro-text">
-                        <span class="name">Start Bootstrap</span>
+                        <span class="name">Lucy Lagunas</span>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                        <span class="skills">Hardware Operations - Web Development - Crossfit</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
     <!--     PROJECT SECTION        -->
-
-<section id="projectxml">
-<div class="container">
+    <section id="projectdesciption">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Project Section</h2>
                     <hr class="star-primary">
                 </div>
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                </div>
             </div>
-  <div id="results" class="col-lg-8 text-center order-4"> </div>
-<div class="col-lg-4 text-center order-3">
-				<form enctype="application/json" action="/post/json" method="post">
-					<div class="form-group">
-						<select class="form-control" name="sec_n">
-							<option value="0">WORK EXPERIENCE</option>
-							<option value="1">COURSES</option>
-							<option value="2">HOBBIES</option>
-						</select>
-					</div>
-					<div class="form-group">
-						<input class="form-control" type="text" name="title" placeholder="Title">
-					</div>
-					<div class="form-group">
-						<input class="form-control" type="text" name="subtitle" placeholder="Subtitle">
-					</div>
-                    <div class="form-group">
-						<input class="form-control" type="text" name="description" placeholder="Description">
-					</div>
-					<button type="submit" class="btn btn-primary btn-block">Submit</button>
-				</form>
-                    <button id="delete" class="btn btn-block btn-danger">Delete</button>
-                    <p class="text-muted">To delete an entree, click the required row first</p>
-			</div>
+    </section>
 
-</section>
-  <!--     PROJECT SECTION        -->
+    <section id="projectxml">
+        <div class="container">
+            <div id="results" class="col-lg-8 text-center order-4"> </div>
+            <div class="col-lg-4 text-center order-3">
+                <form enctype="application/json" action="/post/json" method="post">
+                    <div class="form-group">
+                        <select class="form-control" name="sec_n">
+                            <option value="0">WORK EXPERIENCE</option>
+                            <option value="1">COURSES</option>
+                            <option value="2">HOBBIES</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="title" placeholder="Title">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="subtitle" placeholder="Subtitle">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="description" placeholder="Description">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                </form>
+                <button id="delete" class="btn btn-block btn-danger">Delete</button>
+                <p class="text-muted">To delete an entree, click the required row first</p>
+            </div>
+        </div>
+    </section>
+    <!--     PROJECT SECTION        -->
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
@@ -133,8 +141,6 @@
                     <hr class="star-primary">
                 </div>
             </div>
-
-          
 
             <div class="row">
                 <div class="col-sm-4 portfolio-item">
@@ -217,11 +223,11 @@
                 <div class="col-lg-4">
                     <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
                 </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
-                </div>
+                <!--    <div class="col-lg-8 col-lg-offset-2 text-center">
+                <a href="#" class="btn btn-lg btn-outline">
+                    <i class="fa fa-download"></i> Download Theme
+                </a> 
+            </div>  -->
             </div>
         </div>
     </section>
@@ -288,7 +294,8 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Location</h3>
-                        <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                        <p>3481 Melrose Place
+                            <br>Beverly Hills, CA 90210</p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Around the Web</h3>
@@ -355,15 +362,15 @@
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
+                                </strong>
                                 </li>
                                 <li>Date:
                                     <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
+                                </strong>
                                 </li>
                                 <li>Service:
                                     <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
+                                </strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -392,15 +399,15 @@
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
+                                </strong>
                                 </li>
                                 <li>Date:
                                     <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
+                                </strong>
                                 </li>
                                 <li>Service:
                                     <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
+                                </strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -429,15 +436,15 @@
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
+                                </strong>
                                 </li>
                                 <li>Date:
                                     <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
+                                </strong>
                                 </li>
                                 <li>Service:
                                     <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
+                                </strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -466,15 +473,15 @@
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
+                                </strong>
                                 </li>
                                 <li>Date:
                                     <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
+                                </strong>
                                 </li>
                                 <li>Service:
                                     <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
+                                </strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -503,15 +510,15 @@
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
+                                </strong>
                                 </li>
                                 <li>Date:
                                     <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
+                                </strong>
                                 </li>
                                 <li>Service:
                                     <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
+                                </strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -540,15 +547,15 @@
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
+                                </strong>
                                 </li>
                                 <li>Date:
                                     <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
+                                </strong>
                                 </li>
                                 <li>Service:
                                     <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
+                                </strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -562,8 +569,8 @@
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
- <script src="jquery/jquery.js"></script>
-<script src="jquery/table1.js"></script>
+    <script src="jquery/jquery.js"></script>
+    <script src="jquery/table1.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
