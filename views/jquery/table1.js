@@ -1,3 +1,4 @@
+// This block of code was taken from Mikhail Gitpod Snapshot 
 function draw_table()
 {
     $("#results").empty();
@@ -49,7 +50,6 @@ function delete_row(sec, ent)
 		})
 	})
 };
-
 
 $(document).ready(function()
 {
