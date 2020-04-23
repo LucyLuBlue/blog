@@ -5,4 +5,7 @@ tasks:
     command: npm i -g nodemon && mkdir -p data && mongod --dbpath data 
   - name: Running Heroku
     command: npm install -g heroku
+
+  - name: Ceate Json file 
+    command: npm init
     
