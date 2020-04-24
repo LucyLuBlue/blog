@@ -6,6 +6,5 @@ tasks:
   - name: Running Heroku
     command: npm install -g heroku
 
-  - name: Ceate Json file 
-    command: npm init
+    command: npm i dotenv
     
