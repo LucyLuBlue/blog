@@ -7,4 +7,6 @@ tasks:
     command: npm install -g heroku
   - name: install dotenv
     command: npm i dotenv
+  - name: instal modules
+    command: npm i fs path del multer
     
