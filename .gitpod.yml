@@ -9,4 +9,5 @@ tasks:
     command: npm i dotenv
   - name: instal modules
     command: npm i fs path del multer http path express fs xslt-processor xml2js cors morgan body-parser
+    command: npm i jade
     
