@@ -25,6 +25,9 @@ var port = process.env.PORT || 3000;
 var userCtrl = require('./user-controller');
 // *****************
 
+app.set("view engine","jade");
+app.use(express.static("view"));
+
 // ****** From Server
 app.use(logger('dev'));
 app.use(bodyParser.json());
