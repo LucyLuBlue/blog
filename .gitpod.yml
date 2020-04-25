@@ -5,6 +5,6 @@ tasks:
     command: npm i -g nodemon && mkdir -p data && mongod --dbpath data 
   - name: Running Heroku
     command: npm install -g heroku
-
+  - name: install dotenv
     command: npm i dotenv
     
