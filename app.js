@@ -7,11 +7,12 @@ var http = require('http'),
     xmlParse = require('xslt-processor').xmlParse,
     xsltProcess = require('xslt-processor').xsltProcess;
     xml2js = require('xml2js'); 
+    
 // ****** From Server
-    logger = require ("morgan"),
+    //logger = require ("morgan"),
     cors = require ("cors"),
     bodyParser = require ("body-parser"),
-    mongoose = require( 'mongoose');
+   mongoose = require( 'mongoose');
     require('dotenv').config();
 
 // *****************
@@ -25,16 +26,29 @@ var port = process.env.PORT || 3000;
 var userCtrl = require('./user-controller');
 // *****************
 
-app.set("view engine","jade");
-app.use(express.static("view"));
+//app.set("view engine","jade");
+//app.use(express.static("view"));
 
 // ****** From Server
-app.use(logger('dev'));
-//app.use(bodyParser.json());
+//app.use(logger('dev'));
+app.use(bodyParser.json());
 //app.use(require('./routes'));
 // *****************
 
 // ****** From Server
+app.listen(port, function(err){
+    console.log("Listening on Port: " + port);
+    console.log("MongoDB: " + process.env.MONGODB_URL);
+});
+
+mongoose.connect(process.env.MONGODB_URL);
+mongoose.connection.on('error', (err) => { 
+    console.log('Mongodb Error: ', err); 
+    process.exit();
+});
+mongoose.connection.on('connected', () => { 
+    console.log('MongoDB is successfully connected');
+});
 
 // *****************
 
@@ -135,16 +149,3 @@ server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function() 
 });  
 */
 
-app.listen(port, function(err){
-    console.log("Listening on Port: " + port);
-  ;onsole.log("MongoDB: " + process.env.MONGODB_URL);
-});
-
-mongoose.connect(process.env.MONGODB_URL);
-mongoose.connection.on('error', (err) => { 
-    console.log('Mongodb Error: ', err); 
-    process.exit();
-});
-mongoose.connection.on('connected', () => { 
-    console.log('MongoDB is successfully connected');
-});
