@@ -30,8 +30,8 @@ app.use(express.static("view"));
 
 // ****** From Server
 app.use(logger('dev'));
-app.use(bodyParser.json());
-app.use(require('./routes'));
+//app.use(bodyParser.json());
+//app.use(require('./routes'));
 // *****************
 
 // ****** From Server
@@ -137,7 +137,7 @@ server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function() 
 
 app.listen(port, function(err){
     console.log("Listening on Port: " + port);
-    console.log("MongoDB: " + process.env.MONGODB_URL);
+  ;onsole.log("MongoDB: " + process.env.MONGODB_URL);
 });
 
 mongoose.connect(process.env.MONGODB_URL);
